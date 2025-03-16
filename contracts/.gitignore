@@ -1,0 +1,31 @@
+# Compiler files
+cache/
+out/
+
+# Ignores development broadcast logs
+!/broadcast
+/broadcast/*/31337/
+/broadcast/**/dry-run/
+
+# Docs
+docs/
+
+# Dotenv file
+.env
+
+# Logs and temporary files
+*.log
+*.swp
+*.swo
+
+# Ignore deployment files with sensitive data
+deployments/localhost/*
+!deployments/localhost/.gitkeep
+
+# Ignore private keys or other sensitive files
+private_key.txt
+wallet.json
+
+# Ignore coverage reports
+coverage/
+coverage.json
